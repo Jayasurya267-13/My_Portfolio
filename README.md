@@ -80,12 +80,6 @@ All personal data, placeholders, and links are cleanly separated in `src/data/` 
 
 ## 🌐 Deployment
 
-### Deploy to Vercel
-1. Push this repository to your GitHub account.
-2. In [Vercel](https://vercel.com), click **Add New Project** and select your repository.
-3. Framework preset: **Vite** (Build command: `npm run build`, Output directory: `dist`).
-4. Click **Deploy**.
-
 ### Deploy to GitHub Pages
 1. In `vite.config.ts`, `base: './'` is already pre-configured for relative path compatibility.
 2. Build the project:
