@@ -14,7 +14,7 @@ export const ContactSection: React.FC = () => {
 
   const handleCopyEmail = () => {
     if (CONFIG.emailPlaceholder === 'jayasurya2006rjs@gmail.com') {
-      navigator.clipboard.writeText("jayasurya.ece.contact@example.com");
+      navigator.clipboard.writeText("jayasurya2006rjs@gmail.com");
     } else {
       navigator.clipboard.writeText(CONFIG.emailPlaceholder);
     }
