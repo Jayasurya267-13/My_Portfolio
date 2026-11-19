@@ -71,7 +71,7 @@ All personal data, placeholders, and links are cleanly separated in `src/data/` 
 |---|---|---|
 | **Profile Photo** | `public/assets/profile/jayasurya_r.jpg` | Drop your photo named `jayasurya_r.jpg` into this folder. If empty, the HUD frame displays a custom vector monogram with radar reticle. |
 | **PDF Resume** | `public/assets/resume/Jayasurya_R_Resume.pdf` | Drop your resume named `Jayasurya_R_Resume.pdf` into this folder. Download and preview links will serve it automatically. |
-| **Email Address** | `src/data/config.ts` (`emailPlaceholder`) | Replace `"YOUR_EMAIL_HERE"` with your real email address. |
+| **Email Address** | `src/data/config.ts` (`emailPlaceholder`) | Replace `"jayasurya2006rjs@gmail.com"` with your real email address. |
 | **LinkedIn URL** | `src/data/config.ts` (`socials.linkedin.url`) | Update your exact LinkedIn profile link. |
 | **LeetCode Stats** | `src/data/journey.ts` (`LEETCODE_CONFIG`) | Update `solvedCountPlaceholder` and `streakDaysPlaceholder` as your stats grow. |
 | **Project Details** | `src/data/projects.ts` | Edit technical specifications, metrics, or add future case study results. |

@@ -20,7 +20,7 @@ export const CONFIG: ProfileConfig = {
 
   // EDITABLE ASSET PLACEHOLDERS:
   // Drop your files in public/assets/... to automatically activate them
-  emailPlaceholder: "YOUR_EMAIL_HERE", // Replace with your real email, e.g. "jayasurya.ece@example.com"
+  emailPlaceholder: "jayasurya2006rjs@gmail.com", // Replace with your real email, e.g. "jayasurya.ece@example.com"
   resumePdfPath: "./assets/resume/Jayasurya_R_Resume.pdf",
   photoPath: "./assets/profile/jayasurya_r.jpg",
 

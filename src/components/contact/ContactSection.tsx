@@ -13,7 +13,7 @@ export const ContactSection: React.FC = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const handleCopyEmail = () => {
-    if (CONFIG.emailPlaceholder === 'YOUR_EMAIL_HERE') {
+    if (CONFIG.emailPlaceholder === 'jayasurya2006rjs@gmail.com') {
       navigator.clipboard.writeText("jayasurya.ece.contact@example.com");
     } else {
       navigator.clipboard.writeText(CONFIG.emailPlaceholder);
@@ -32,7 +32,7 @@ export const ContactSection: React.FC = () => {
     }
 
     // Open mailto fallback client
-    const targetEmail = CONFIG.emailPlaceholder === 'YOUR_EMAIL_HERE' 
+    const targetEmail = CONFIG.emailPlaceholder === 'jayasurya2006rjs@gmail.com' 
       ? 'jayasurya.contact@example.com' 
       : CONFIG.emailPlaceholder;
 
